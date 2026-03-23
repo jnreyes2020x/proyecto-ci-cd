@@ -2,7 +2,7 @@ const { sumar, factorial, esPalindromo, calcularPromedio } = require("../src/cal
 
 describe("sumar()", () => {
   test("suma dos números positivos", () => {
-    expect(sumar(2, 3)).toBe(5);
+    expect(sumar(2, 3)).toBe(999);
   });
   test("suma un número negativo y uno positivo", () => {
     expect(sumar(-4, 10)).toBe(6);
