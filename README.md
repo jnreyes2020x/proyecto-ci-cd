@@ -18,18 +18,14 @@ npm install
 
 ## Ejecución local
 ```bash
-# Correr pruebas con cobertura
 npm test
-
-# Correr linting
 npm run lint
 ```
 
 ## Pipeline CI/CD
 
-El workflow ejecuta 3 jobs en secuencia:
-1. **lint** — Valida estilo de código con ESLint
-2. **test** — Corre pruebas en Node.js 18 y 20 (matrix strategy)
+1. **lint** — Valida estilo con ESLint
+2. **test** — Corre pruebas en Node.js 18 y 20
 3. **build** — Valida que el módulo carga correctamente
 
 ## Fuente
